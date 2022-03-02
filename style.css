@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+img {
+    max-width: 100%; 
+}
+body {
+    font-family: "Red Hat Display",sans-serif;
+    font-size: 16px;
+    background-color:  hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+.bg__image {
+    background: url(images/pattern-background-desktop.svg) no-repeat center/cover;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.main-container {
+    margin: 20px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px hsl(224, 23%, 55%);
+    text-align: center;
+    width: 350px;
+    /* padding: 10px; */
+    /* margin-top: 50; */
+
+    
+    /* grid-template-columns: 1fr; */
+    /* justify-content: center;
+    align-content: center; */
+    /* min-height: auto; */
+    /* margin-top: 15%; */
+}
+header img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+} 
+header p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 40px;
+    
+}
+header h2 {
+    margin: 30px 20px 20px;
+}
+.main-container article .pricing {
+    background-color:  hsl(225, 100%, 94%);
+    margin: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.btn-pricing {
+    display: flex;
+    flex-direction: column;
+    
+}
+.pricing button {
+    background-color: transparent;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.time-pricing {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: -5%;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.tp-01 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.tp-02 {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.button {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.change {
+    cursor: pointer;
+}
+.change:hover {
+    color: hsl(225, 100%, 98%);
+    text-decoration: solid;
+}
+.btn {
+    font-size: 12px;
+    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.btn-primary {
+    background-color:  hsl(245, 75%, 52%);
+    padding: 10px 95px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    justify-self: start;
+    margin: 10px 20px 40px;
+
+}
+.btn-primary:hover {
+    color:  hsl(223, 47%, 23%);
+    text-decoration: solid;
+}
+.btn-secondary {
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    
+}
+.btn-secondary:hover {
+    color:  hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
